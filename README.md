@@ -2,7 +2,7 @@
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Support & Thanks](#support)
+* [Support & Thanks](#support-&-thanks)
 * [License]($license)
 
 # Introduction
