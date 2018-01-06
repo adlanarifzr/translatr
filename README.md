@@ -2,7 +2,7 @@
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Support & Thanks](#support-&-thanks)
+* [Support & Thanks](#support)
 * [License]($license)
 
 # Introduction
@@ -27,7 +27,7 @@ echo $model->description;
 ```
 This command will display the description based on your current locale.
 
-## Support & Thanks
+## <a name="support"></a>Support & Thanks
 I would be really grateful if you would contribute to support my contributions in Laravel development by saying thanks to [adlanarifzr@gmail.com](mailto:adlanarifzr@gmail.com).
 
 ## License
