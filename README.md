@@ -6,7 +6,7 @@
 * [License]($license)
 
 # Introduction
-To display a translated static text might be easy with laravel, yet to display a translated data from database/model would usually require a little bit of efforts. Translatr helps to simplify the translation concept by integrating a simple trait into the Models without having to have extra tables and such.
+To display a translated static text might be easy with Laravel, yet to display a translated data from database/model would usually require a little bit of efforts and lines of code. Translatr helps to simplify the translation concept by integrating a simple trait into the Models without having to have extra tables and such.
 
 ## Installation
 1. Simply put the ```Translatr.php``` into App/Traits
