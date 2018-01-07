@@ -9,10 +9,13 @@
 To display a translated static text might be easy with Laravel, yet to display a translated data from database/model would usually require a little bit of efforts and lines of code. Translatr helps to simplify the translation concept by integrating a simple trait into the Models without having to have extra tables and such.
 
 ## Installation
-1. Simply put the ```Translatr.php``` into App/Traits
-2. Use the Trait in your Model 
+1. Install the package through composer
+```
+composer require adlanarifzr/translatr
+```
+2. Use the Translatr in your Model 
 ```php
-use App\Traits\Translatr;
+use Translatr\Translatr;
 
 class ModelName extends Model
 {
@@ -25,7 +28,7 @@ You can translate any data in your database by adding column name with ```_local
 ```php
 echo $model->description;
 ```
-This command will display the description based on your current locale.
+This command will display the description based on your current locale. To add more language, simply add new column with different locale.
 
 ## <a name="support"></a>Support & Thanks
 I would be really grateful if you would contribute to support my contributions in Laravel development by saying thanks to [adlanarifzr@gmail.com](mailto:adlanarifzr@gmail.com).
