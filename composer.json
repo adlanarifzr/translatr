@@ -1,0 +1,18 @@
+{
+    "name": "adlanarifzr/translatr",
+    "description": "Simple tool to translate data from database through Laravel model",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adlan Arif Zakaria",
+            "email": "adlanarifzr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Translatr\\": "src/"
+        }
+    },
+}
