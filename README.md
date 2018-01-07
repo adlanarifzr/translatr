@@ -21,7 +21,7 @@ class ModelName extends Model
 ```
 
 ## Usage
-You can display any translated data in your database by adding column name with ```_locale``` at the end of the column/attribute name. For example ```description_en``` for English and ```description_my``` for Malay language.
+You can translate any data in your database by adding column name with ```_locale``` at the end of the column/attribute name. For example ```description_en``` for English and ```description_my``` for Malay language.
 ```php
 echo $model->description;
 ```
