@@ -1,6 +1,6 @@
 {
     "name": "adlanarifzr/translatr",
-    "description": "Simple tool to translate data from database through Laravel model",
+    "description": "A simple trait to translate data from database through Laravel model",
     "type": "library",
     "license": "MIT",
     "authors": [

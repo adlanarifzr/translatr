@@ -25,7 +25,7 @@ trait Translatr
         }
 
         if (array_key_exists($key.'_'.app()->getLocale(), $this->attributes) ||
-            $this->hasGetMutator($key)) {
+            $this->hasGetMutator($key.'_'.app()->getLocale())) {
             return $this->getAttributeValue($key.'_'.app()->getLocale());
         }
 
