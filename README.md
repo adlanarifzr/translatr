@@ -31,7 +31,7 @@ echo $model->description;
 This command will display the description based on your current locale. To add more language, simply add new column with different locale.
 
 ## <a name="support"></a>Support & Thanks
-I would be really grateful if you would contribute to support my contributions in Laravel development by saying thanks to [adlanarifzr@gmail.com](mailto:adlanarifzr@gmail.com).
+I would be really grateful if you would contribute to support my development in Laravel packages. I can be reached at [adlanarifzr@gmail.com](mailto:adlanarifzr@gmail.com).
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
